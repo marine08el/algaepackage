@@ -11,7 +11,7 @@ Algae
 The goal of Algae Package is to provide an educational tool for
 exploring intertidal algae species. It visualizes foreshore layering
 schemes, provides short descriptive texts, and allows users to interact
-with algae species through photo cards and data summaries. …
+with algae species through photo cards and data summaries. 
 
 ## Contents
 
@@ -23,7 +23,7 @@ with algae species through photo cards and data summaries. …
 
 You can install the development version of package ‘Algae’ like so:
 ```r
-devtools::install_github(“marine08el/algaepackage”)
+devtools::install_github("marine08el/algaepackage")
 ``` 
 
 Load the package: 
@@ -39,7 +39,7 @@ Three functions provide data on algae:
 info_algae() 
 ```
 From the vernacular or scientific name of the seaweed,
-obtain a text summarising its group, its location on the foreshore,
+obtain a text summarizing its group, its location on the foreshore,
 whether it is edible or not, its maximum size and its most common human
 uses.
 
@@ -55,12 +55,17 @@ determines their specific positioning along the foreshore.
 ```r
 algae_card() 
 ```
-After choosing the vernacular or scientific name of the
+After choosing the scientific name of the
 species of algae, this function produces a graphical educational sheet
-summarising the main characteristics of the algae.
+summarizing the main characteristics of the algae.
 
 
 ## Examples
+
+Load data
+```r
+data(algae)
+```
 
 Example with the function info_algae
 
@@ -76,7 +81,7 @@ This algae can be used for : Food industry, Fertilizer.
 Example with the function algae_card
 
 ```r
-algae_card(“Gracilaria gracilis”) or algae_card(“Slender wart weed”)
+algae_card(“Gracilaria gracilis”)
 ```
 
 Example with the cards: ![Gracilaria gracilis
