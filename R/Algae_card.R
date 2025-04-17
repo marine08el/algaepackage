@@ -8,7 +8,7 @@
 #' @param name The vernacular or the scientific name of the algae.
 #' @param data algae
 #'
-#' @returns A graphical representation of the algae card.
+#' @return A graphical representation of the algae card.
 #'
 #' @importFrom png readPNG
 #' @importFrom grid grid.newpage pushViewport viewport unit grid.raster grid.text grid.rect gpar
