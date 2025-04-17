@@ -1,0 +1,25 @@
+Package: Algae
+Title: Discovering some algae with three functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Marine", "Lefranc", , "marine.lefranc@stud-mail.uni-wuerzburg.de", role = c("aut", "cre"))
+Description: Educational tools for discovering some algae: foreshore layering scheme, short descriptive text and interactive cards with photos. 
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    dplyr,
+    ggplot2,
+    grid,
+    png,
+    utils
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr

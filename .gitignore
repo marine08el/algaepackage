@@ -1,0 +1,23 @@
+.Rproj.user
+inst/doc
+
+# Fichiers RStudio
+*.Rproj
+
+# Historique de session
+.Rhistory
+.RData
+.Ruserdata
+
+# Fichiers de build/check
+.Rcheck/
+.Rbuildignore
+*.tar.gz
+
+# Générés par roxygen2
+man/
+NAMESPACE
+
+# Fichiers temporaires de vignettes
+vignettes/*.html
+vignettes/*.pdf
