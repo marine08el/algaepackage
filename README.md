@@ -8,10 +8,10 @@ Algae
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Algae Package is to provide an educational tool for
-exploring intertidal algae species. It visualizes foreshore layering
-schemes, provides short descriptive texts, and allows users to interact
-with algae species through photo cards and data summaries. 
+The goal of Algae Package is to obtain information on intertidal algae 
+thanks to short descriptions and interactive cards,locate algae according 
+to its position on the foreshore, visualize the distribution of algae in 
+Europe and detect algae accumulation with indexes.
 
 ## Contents
 
