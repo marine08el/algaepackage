@@ -27,6 +27,7 @@ Algae_index_detection(
 A raster containing the binary mask of areas detected as algae.
 }
 \description{
-This function can be used to detect the accumulation of algae in shallow waters or on foreshores.
+This function can be used to detect the accumulation of algae in shallow waters
+or on foreshores, from a satellite image of your choice.
 The NDVI and NDWI indices are combined to extract vegetation (algae) from wetlands or aquatic areas.
 }
