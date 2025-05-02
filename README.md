@@ -49,7 +49,7 @@ This function produces a graphical educational sheet
 summarizing the main characteristics of the algae.
 
 ```r
-distribution_algae() 
+Distribution_algae() 
 ```
 This function generates a spatial distribution map 
 of an algae species in Europe. Geolocated occurrences come from the GBIF system. 
@@ -63,7 +63,7 @@ environmental conditions such as light, humidity or salinity, which
 determines their specific positioning along the foreshore.
 
 ```r
-algae_index_detection() 
+Algae_index_detection() 
 ``` 
 This function can be used to detect the accumulation of algae in shallow waters 
 or on foreshores. The NDVI and NDWI indices are combined to extract vegetation (algae) 
