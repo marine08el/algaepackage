@@ -82,7 +82,7 @@ Example with the function distribution_algae
 ```r
 Distribution_algae("Chondrus crispus")
 ```
-Example with the distribution: !![Distribution de Chondrus crispus](man/figures/distribution_algae_chondrus_crispus.png)
+Example with the distribution: ![Distribution de Chondrus crispus](man/figures/distribution_algae_chondrus_crispus.png)
 
 
 Example with the function algae_card
@@ -91,5 +91,5 @@ Example with the function algae_card
 algae_card(“Gracilaria gracilis”)
 ```
 
-Example with the cards: ![Gracilaria gracilis
+Example with a card: ![Gracilaria gracilis
 card](man/figures/algae_card_gracilaria_gracilis.png)
