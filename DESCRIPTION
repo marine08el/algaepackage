@@ -1,9 +1,9 @@
 Package: Algae
-Title: Discovering some algae with three functions
+Title: Discovering, locating and detecting algae 
 Version: 0.0.0.9000
 Authors@R: 
     person("Marine", "Lefranc", , "marine.lefranc@stud-mail.uni-wuerzburg.de", role = c("aut", "cre"))
-Description: Educational tools for discovering some algae: foreshore layering scheme, short descriptive text and interactive cards with photos. 
+Description: Obtain information on algae thanks to short descriptions and interactive cards, locate algae according to its position on the foreshore, visualize the distribution of algae in Europe and detect algae accumulation with indexes.
 License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -16,6 +16,10 @@ Imports:
     ggplot2,
     grid,
     png,
+    rgbif,
+    rnaturalearth,
+    sf,
+    terra,
     utils
 Suggests: 
     knitr,

@@ -33,31 +33,41 @@ library(Algae)
 
 ## Functions
 
-Three functions provide data on algae:
+Five functions provide data on algae:
 
 ```r
 info_algae() 
 ```
-From the vernacular or scientific name of the seaweed,
-obtain a text summarizing its group, its location on the foreshore,
+Obtain a text summarizing its group, its location on the foreshore,
 whether it is edible or not, its maximum size and its most common human
 uses.
 
 ```r
+algae_card() 
+```
+This function produces a graphical educational sheet
+summarizing the main characteristics of the algae.
+
+```r
+distribution_algae() 
+```
+This function generates a spatial distribution map 
+of an algae species in Europe. Geolocated occurrences come from the GBIF system. 
+
+```r
 intertidal_zone() 
 ``` 
-Simply execute this function to obtain a diagram
-showing the locations of the algae on the foreshore. The physiological
+Diagram showing the locations of the algae on the foreshore. The physiological
 parameters specific to each species of algae react differently to
 environmental conditions such as light, humidity or salinity, which
 determines their specific positioning along the foreshore.
 
 ```r
-algae_card() 
-```
-After choosing the scientific name of the
-species of algae, this function produces a graphical educational sheet
-summarizing the main characteristics of the algae.
+algae_index_detection() 
+``` 
+This function can be used to detect the accumulation of algae in shallow waters 
+or on foreshores. The NDVI and NDWI indices are combined to extract vegetation (algae) 
+from wetlands or aquatic areas.
 
 
 ## Examples
@@ -67,16 +77,13 @@ Load data
 data(algae)
 ```
 
-Example with the function info_algae
+Example with the function distribution_algae
 
 ```r
-info_algae(“Ulva lactuca”) or info_algae("Sea lettuce")
+Distribution_algae("Chondrus crispus")
 ```
-```r
-Response: Sea lettuce (*Ulva lactuca*) is a green alga from the
-mid-intertidal zone. This algae is eatable. Its maximum size is 0.4 m.
-This algae can be used for : Food industry, Fertilizer.
-```
+Example with the distribution: ![Chondrus crispus distribution]
+(man/figures/distribution_algae_chondrus_crispus.png)
 
 Example with the function algae_card
 
